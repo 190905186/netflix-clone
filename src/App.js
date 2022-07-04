@@ -18,6 +18,7 @@ function App() {
       <Row title="Netflix ComedyMovies" fetchURL={requests.fetchComedyMovies}/>
       <Row title="Netflix HorrorMovies" fetchURL={requests.fetchHorrorMovies}/>
       <Row title="Netflix Documnetaries" fetchURL={requests.fetchDocumentaries}/>
+     </div>
   );
 }
 
