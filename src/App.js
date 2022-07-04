@@ -10,7 +10,6 @@ function App() {
     <div className="App">
       <Nav/>
       <Banner/>
-      
       <Row title="Netflix originals" fetchURL={requests.fetchNetflixOriginals}/>
       <Row title="Netflix Trending" fetchURL={requests.fetchTrending}/>
       <Row title="Netflix Romance" fetchURL={requests.fetchRomanceMovies}/>
@@ -19,8 +18,6 @@ function App() {
       <Row title="Netflix ComedyMovies" fetchURL={requests.fetchComedyMovies}/>
       <Row title="Netflix HorrorMovies" fetchURL={requests.fetchHorrorMovies}/>
       <Row title="Netflix Documnetaries" fetchURL={requests.fetchDocumentaries}/>
-     
-    // </div>
   );
 }
 
