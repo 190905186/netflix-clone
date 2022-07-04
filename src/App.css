@@ -1,0 +1,17 @@
+
+.App {
+  text-align: center;
+  background-color:black;
+}
+.App::-webkit-scrollbar{
+  display: none;
+}
+.fields{
+  top: 100px;
+}
+
+
+
+
+
+
